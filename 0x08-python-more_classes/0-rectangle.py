@@ -2,6 +2,4 @@
 class Rectangle:
 	pass # An empty class
 
-r = Rectangle
-print(r)
 
