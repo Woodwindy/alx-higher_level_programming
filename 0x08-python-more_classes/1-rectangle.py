@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Defines a rectancle
+Defines a rectangle
 """
 
 
