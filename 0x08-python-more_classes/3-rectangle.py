@@ -55,12 +55,13 @@ class Rectangle:
         """returns the perimeter"""
         if self.__height == 0 or self.__width == 0:
             return 0
-r = Rectangle(2, 4) 
-print("Area: {} - Perimeter: {}".format(my_rectangle.area(), my_rectangle.perimeter()))
-
-print(str(my_rectangle))
-print(repr(my_rectangle))
-
-print("--")
-	return self.__width * 2 + self.__height * 2
- 
+	def __str__(self):
+        """print rectangle using #"""
+        if self.__height == 0 or self.__width == 0:
+            return ""
+        for i in range(self.__height):
+            for j in range(self.__width):
+                print("#", end="")
+            if i != self.__height - 1:
+                print()
+        return "" 
