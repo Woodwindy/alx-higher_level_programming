@@ -7,3 +7,6 @@ if (isNaN(size)) {
     for (let j = 0; j < size; j++) {
       process.stdout.write('X');
     }
+    process.stdout.write('\n');
+  }
+}
